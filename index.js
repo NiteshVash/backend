@@ -5,7 +5,7 @@ const app = express();
 
 // Enable CORS for the specific origin (e.g., localhost:3000)
 app.use(cors({
-    origin: 'http://localhost:3000', // Change to match the front-end origin
+    origin: 'https://frontend-gray-five-58.vercel.app', // Change to match the front-end origin
 }));
 
 // Middleware to parse JSON request bodies
